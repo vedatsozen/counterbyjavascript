@@ -21,7 +21,7 @@ h1 {
     margin-top: 200px;
     height: 100px;
     width:500px;
-    background-color: red;
+    background-color: maroon;
     color: white;
     padding: 5px;
     display: flex;
@@ -29,6 +29,7 @@ h1 {
     align-items: center;
     font-size:60px;
     letter-spacing: 3px;
+    font-weight:bold;
 }
 
 button {
