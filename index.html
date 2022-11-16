@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+
+<div id="container"></div>
+
+<button type="button" onclick="addone()">Increase</button>
+<button type="button" onclick="subone()">Decrease</button>
+<button type="button" onclick="reset()">Reset</button>
+
+<h1>Made by Javascript not React Js</h1>
+
+</body>
+
+<script>
+
+let clickCount = 0 ;
+
+document.getElementById("container").innerHTML = clickCount ;
+
+function addone() {
+
+clickCount = clickCount + 1 ;
+
+document.getElementById("container").innerHTML = clickCount;
+
+}
+
+function subone() {
+
+clickCount = clickCount - 1 ;
+
+document.getElementById("container").innerHTML = clickCount;
+
+}
+
+function reset() {
+
+window.location.reload();
+
+}
+
+</script>
+</html>
